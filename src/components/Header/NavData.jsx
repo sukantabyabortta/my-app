@@ -24,10 +24,10 @@ const navData = [
     label: "Blog",
     path: "/blog",
   },
-  {
-    label: "User",
-    path: "/users",
-  },
+  // {
+  //   label: "User",
+  //   path: "/users",
+  // },
   {
     label: "Contact Us",
     path: "/contact",
