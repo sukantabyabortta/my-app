@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -83,7 +84,7 @@ function ImageSlider() {
                     <p>
                         {bannerText.desc}
                     </p>
-                    <a href="/contact" className="button1">Contact us</a>
+                    <Link to="/" className="button1">Contact us</Link>
                 </div>
             </div>
         </div>
