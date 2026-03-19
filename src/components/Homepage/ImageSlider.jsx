@@ -84,7 +84,7 @@ function ImageSlider() {
                     <p>
                         {bannerText.desc}
                     </p>
-                    <Link to="/" className="button1">Contact us</Link>
+                    <Link to="/contact" className="button1">Contact us</Link>
                 </div>
             </div>
         </div>
