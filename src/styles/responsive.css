@@ -1,0 +1,1355 @@
+/*responsive CSS
+=================================================================*/
+
+@media only screen and (max-width:2560px) {}
+
+@media only screen and (max-width:2100px) {}
+
+@media only screen and (max-width:1900px) {
+    .container {
+        max-width: 1600px;
+    }
+}
+
+@media only screen and (max-width:1700px) {
+    .container {
+        max-width: 1350px;
+    }
+    .bannerText strong {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .bannerText h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .bannerText p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .bannerText {
+        width: 550px;
+    }
+    .cbox1 span {
+        font-size: 17px;
+        line-height: 27px;
+    }
+    .cbox2 span {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .ourService {
+        padding: 50px 0 20px;
+    }
+    .button1 {
+        font-size: 16px;
+    }
+    .lookingForService h3,
+    .lookingForService h4 {
+        font-size: 26px;
+    }
+    .lookingForService span {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+    .container {
+        max-width: 1100px;
+    }
+    .bannerTextOuter {
+        height: auto;
+        width: 100%;
+        padding-top: 0px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+    .bannerText {
+        width: 100%;
+        background: transparent;
+        text-align: center;
+        padding: 0 20px;
+        border: none;
+    }
+    .bannerText h1,
+    .bannerText p {
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    .bannerText strong::after {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50);
+        -moz-transform: translateX(-50);
+        -ms-transform: translateX(-50);
+        -o-transform: translateX(-50);
+    }
+    .heroBannerSlider .slick-dots {
+        bottom: 20px;
+    }
+    .customPanel1 {
+        grid-template-columns: 3fr 1fr 3fr;
+    }
+    .ourServiceList ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .WhyChooseUs .whoWeAreCont {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        direction: rtl;
+        text-align: left;
+    }
+    .whoWeAreCont img {
+        width: 100%;
+    }
+    .blogDetails .container {
+        grid-template-columns: 5fr 2.7fr;
+        gap: 40px;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    .footerBottom .container>div {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    .breadcrumbs h1 {
+        font-size: 2.2rem;
+    }
+    .blogPageCont ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .blogDetails .container {
+        gap: 50px;
+    }
+    .aboutContent {
+        gap: 30px;
+    }
+    .aboutImage img {
+        width: 350px;
+    }
+    .faqBox {
+        grid-template-columns: 3fr 2fr;
+        gap: 30px;
+    }
+    .ourWorkProcess .ourServiceList ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .cbox3 img {
+        width: 280px;
+    }
+    .lookingForService h3,
+    .lookingForService h4 {
+        font-size: 19px;
+    }
+    .lookingForService span {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:1099px) {
+    .cbox1 strong {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .cbox1 span {
+        font-size: 15px;
+        line-height: 23px;
+        padding-left: 25px;
+    }
+    .cbox2 span {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .customPanel1 {
+        grid-template-columns: 4fr 1fr 3fr;
+    }
+    .home_faq_panel {
+        padding: 50px 0;
+    }
+    .breadcrumbs {
+        padding: 40px 0;
+    }
+    .statsSec {
+        padding: 50px 0;
+    }
+    .serviceList li a strong {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .aboutContent {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+    }
+    .inputRow {
+        flex-direction: column;
+    }
+    .hero h1 {
+        font-size: 1.8rem;
+        line-height: 38px;
+    }
+    .hero p {
+        font-size: 1.2rem;
+        line-height: 26px;
+        margin-bottom: 22px;
+    }
+    .button1 {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .heroBanner {
+        margin-bottom: 0;
+        overflow: visible;
+        width: 100%;
+        display: block;
+        float: left;
+    }
+    .heroBannerSlider {
+        float: left;
+    }
+    .bannerTextOuter {
+        padding: 30px 0;
+        display: flex;
+        width: 100%;
+        position: static;
+        transform: unset;
+        -webkit-transform: unset;
+        -moz-transform: unset;
+        -ms-transform: unset;
+        -o-transform: unset;
+    }
+    .bannerText {
+        width: 100%;
+    }
+    .bannerText strong {
+        color: #082237;
+    }
+    .bannerText h1,
+    .bannerText p {
+        color: #082237;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .services {
+        padding: 40px 0;
+    }
+    .about {
+        padding: 40px 0;
+    }
+    .topBar {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footerBottom .container>div {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .breadcrumbs {
+        padding: 50px 0;
+    }
+    .blogPageCont ul {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .blogPageCont {
+        padding: 50px 0 20px;
+    }
+    .blogDetails .container {
+        gap: 30px;
+    }
+    .serviceList li a img {
+        width: 80px;
+        height: 80px;
+    }
+    .aboutPageCont {
+        padding: 60px 0;
+    }
+    .aboutImage {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .statsGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .home_faq_panel {
+        padding: 80px 0;
+    }
+    .faqBox {
+        gap: 20px;
+    }
+    .contactBox {
+        padding: 25px;
+    }
+    .ourServiceList ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .ourWorkProcess .ourServiceList ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .customPanel1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cbox1 strong {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .cbox3 {
+        display: none;
+    }
+    .whoWeAreCont {
+        gap: 20px;
+    }
+    .WhyChooseUs .whoWeAreCont {
+        grid-template-columns: 1fr;
+        direction: ltr;
+    }
+    .whoWeAreCont img {
+        width: 500px;
+        margin: 40px auto 15px;
+        display: block;
+    }
+    .siteLogo {
+        width: 130px;
+        padding: 15px 0 8px;
+    }
+    .headerNav {
+        background: #142d59;
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: 300px;
+        height: 100%;
+        display: block;
+        z-index: 50;
+        padding-top: 30px;
+        transition: all ease-in-out 0.2s;
+        -webkit-transition: all ease-in-out 0.2s;
+        -moz-transition: all ease-in-out 0.2s;
+        -ms-transition: all ease-in-out 0.2s;
+        -o-transition: all ease-in-out 0.2s;
+    }
+    .headerNav>ul {
+        display: block !important;
+    }
+    .headerNav.change {
+        left: 0;
+    }
+    .headerNav li a {
+        border-bottom: 3px solid transparent;
+        color: #fff !important;
+        padding: 10px 15px !important;
+    }
+    .headerNav li:hover a {
+        background: rgba(255, 255, 255, 0.1);
+        border-bottom-color: #ff6b35;
+    }
+    .headerNav li:hover>ul {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .headerNav ul,
+    .headerNav ul ul,
+    .headerNav ul ul ul {
+        position: static;
+        width: 100%;
+        opacity: 1 !important;
+        box-shadow: unset;
+        border-bottom: 2px solid #ff6b35;
+        visibility: unset !important;
+        border-radius: unset;
+        -webkit-border-radius: unset;
+        -moz-border-radius: unset;
+        -ms-border-radius: unset;
+        -o-border-radius: unset;
+        transform: unset;
+        -webkit-transform: unset;
+        -moz-transform: unset;
+        -ms-transform: unset;
+        -o-transform: unset;
+        transition: unset !important;
+        -webkit-transition: unset !important;
+        -moz-transition: unset !important;
+        -ms-transition: unset !important;
+        -o-transition: unset !important;
+    }
+    .headerNav ul ul {
+        background: #859ecb;
+        border: none !important;
+    }
+    .headerNav ul ul li a {
+        padding-left: 30px;
+    }
+    .headerNav ul li i {
+        transform: unset;
+        -webkit-transform: unset;
+        -moz-transform: unset;
+        -ms-transform: unset;
+        -o-transform: unset;
+        right: 10px;
+        position: absolute;
+        top: 14px;
+    }
+    .mobileButton {
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+        color: #4c82b5;
+        margin: 13px 15px;
+        position: absolute;
+        right: 0;
+        top: 16px;
+    }
+    .closeButton {
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 25px;
+        color: #fff;
+    }
+    .WhyChooseUs {
+        padding: 50px 0;
+    }
+    .WhyChooseUs a.button1 {
+        margin: 0 0 70px;
+    }
+    .ourWorkProcess {
+        padding: 70px 0;
+    }
+    .faqBox {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .aboutTxt h2 {
+        font-size: 30px;
+    }
+    .blogDetails .container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .blogTxt {
+        grid-column: auto;
+    }
+    .aboutContent {
+        grid-template-columns: 1fr;
+    }
+    .hero .container {
+        gap: 0px;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .hero img {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .header {
+        background: #f5f6f5;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 5;
+        transition: transform .35s ease, opacity .35s ease;
+        -webkit-transition: transform .35s ease, opacity .35s ease;
+        -moz-transition: transform .35s ease, opacity .35s ease;
+        -ms-transition: transform .35s ease, opacity .35s ease;
+        -o-transition: transform .35s ease, opacity .35s ease;
+    }
+    .header.hideBar {
+        opacity: 0;
+        transform: translateY(-120%);
+        -webkit-transform: translateY(-120%);
+        -moz-transform: translateY(-120%);
+        -ms-transform: translateY(-120%);
+        -o-transform: translateY(-120%);
+    }
+    body {
+        padding-top: 68px;
+    }
+    .floatIcon:after,
+    .floatIcon:before {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero {
+        padding: 40px 20px;
+    }
+    .service-card {
+        padding: 20px;
+    }
+    .services h2,
+    .about h2 {
+        font-size: 1.8rem;
+    }
+    .footerBottom .container>div {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        text-align: center;
+    }
+    .footer {
+        padding-top: 30px;
+    }
+    .breadcrumbs {
+        padding: 40px 0;
+    }
+    .breadcrumbs h1 {
+        font-size: 2rem;
+    }
+    .breadcrumbs ul {
+        flex-wrap: wrap;
+    }
+    .blogPageCont ul {
+        grid-template-columns: 1fr;
+    }
+    .blogPageCont li {
+        padding: 20px;
+    }
+    .blogDetails figure img {
+        height: 300px;
+    }
+    .serviceList h3 {
+        font-size: 20px;
+    }
+    .aboutContent {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    .aboutImage img {
+        width: 100%;
+        max-width: 400px;
+    }
+    .floatingBadge {
+        left: 20px;
+        bottom: 20px;
+    }
+    .statsGrid {
+        grid-template-columns: 1fr;
+    }
+    .statsSec {
+        padding: 60px 0;
+    }
+    .home_faq_panel {
+        padding: 60px 0;
+    }
+    .inquiryForm {
+        margin: 0;
+    }
+    .bannerText h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .bannerText strong {
+        font-size: 20px;
+    }
+    .inputRow {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contactBox h2 {
+        font-size: 28px;
+    }
+    .ourServiceList ul {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .ourWorkProcess .ourServiceList ul {
+        grid-template-columns: 1fr;
+    }
+    .customPanel1 {
+        grid-template-columns: 1fr;
+    }
+    .cbox1,
+    .cbox2,
+    .cbox3 {
+        text-align: center;
+    }
+    .cbox1>div {
+        flex-direction: column;
+        text-align: center;
+    }
+    .cbox1 span {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+    .cbox3 img {
+        width: 100%;
+        max-width: 300px;
+    }
+    .whoWeAreCont {
+        flex-direction: column;
+    }
+    .whoWeAreCont img {
+        width: 100%;
+        max-width: 400px;
+    }
+    .lookingForService .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .lookingForService .container>div {
+        justify-content: center;
+    }
+    .cbox2 {
+        text-align: left;
+    }
+    .whoWeAreCont img {
+        max-width: 500px;
+    }
+    .lookingForService h3 {
+        margin: 0;
+    }
+    .lookingForService {
+        padding: 30px 0;
+    }
+    .customReview {
+        padding: 55px 0 70px;
+    }
+    .hTxt {
+        padding-bottom: 30px;
+    }
+    .inquiryForm {
+        max-width: unset;
+    }
+    .topBar {
+        gap: 0;
+    }
+    .infoItem {
+        font-size: 14px;
+    }
+    .topBar strong {
+        font-size: 17px;
+    }
+    .infoItem img {
+        width: 34px;
+    }
+    .infoItem:first-child img {
+        width: 25px;
+    }
+    .ourWorkProcess .ourServiceList ul {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .trustList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:690px) {
+    .topBar {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    .ourServiceList ul {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .topBar {
+        text-align: left;
+        gap: 15px;
+        align-items: flex-start;
+        padding: 0 20px 30px;
+    }
+    .infoItem {
+        align-items: flex-start;
+    }
+    .hero h1 {
+        font-size: 1.9rem;
+    }
+    .floatIcon {
+        background: transparent;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        right: unset;
+        left: 50%;
+        top: unset;
+        bottom: 0;
+        border: none;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        border-radius: unset;
+        -webkit-border-radius: unset;
+        -moz-border-radius: unset;
+        -ms-border-radius: unset;
+        -o-border-radius: unset;
+        transition: transform .35s ease, opacity .35s ease;
+        -webkit-transition: transform .35s ease, opacity .35s ease;
+        -moz-transition: transform .35s ease, opacity .35s ease;
+        -ms-transition: transform .35s ease, opacity .35s ease;
+        -o-transition: transform .35s ease, opacity .35s ease;
+    }
+    .floatIcon.hideBar {
+        opacity: 0;
+        transform: translateX(-50%) translateY(120%);
+        -webkit-transform: translateX(-50%) translateY(120%);
+        -moz-transform: translateX(-50%) translateY(120%);
+        -ms-transform: translateX(-50%) translateY(120%);
+        -o-transform: translateX(-50%) translateY(120%);
+    }
+    .floatIcon a:first-child {
+        background: red;
+        width: 120px;
+        padding: 10px;
+        display: flex;
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+    .floatIcon a:first-child::after {
+        content: "Call";
+        position: relative;
+    }
+    .floatIcon a:first-child img {
+        width: 20px;
+        height: auto;
+        margin-right: 15px;
+    }
+    .floatIcon a:last-child {
+        background: #26b968;
+        width: 157px;
+        padding: 10px;
+        display: flex;
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+        justify-content: flex-start;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+    .floatIcon a:last-child::after {
+        content: "Whatsapp";
+        position: relative;
+    }
+    .floatIcon a:last-child img {
+        width: 25px;
+        height: auto;
+        margin-right: 15px;
+        position: absolute;
+        left: 3px;
+        bottom: 4px;
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    .cta-btn {
+        padding: 12px 24px;
+        font-size: 1rem;
+    }
+    .topBar strong {
+        font-size: 18px;
+    }
+    .infoItem img {
+        width: 35px;
+        margin-right: 10px;
+    }
+    .breadcrumbs h1 {
+        font-size: 1.8rem;
+    }
+    .breadcrumbs ul {
+        font-size: 0.9rem;
+    }
+    .blogPageCont li img {
+        height: 150px;
+    }
+    .blogPageCont li h3 {
+        font-size: 20px;
+    }
+    .blogDetails h2 {
+        font-size: 22px;
+    }
+    .blogDetails p {
+        font-size: 16px;
+    }
+    .serviceList li a strong {
+        font-size: 18px;
+    }
+    .aboutTxt h2 {
+        font-size: 30px;
+    }
+    .aboutTxt p {
+        font-size: 16px;
+    }
+    .floatingBadge .number {
+        font-size: 28px;
+    }
+    .statBlock h3 {
+        font-size: 30px;
+    }
+    .acc_trigger {
+        font-size: 16px;
+        padding: 20px 35px 20px 0;
+    }
+    .inquiryForm h4 {
+        font-size: 20px;
+    }
+    .bannerText h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .bannerText p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .contactBox h2 {
+        font-size: 24px;
+    }
+    .btn-submit {
+        font-size: 1rem;
+    }
+    .ourServiceList ul li strong {
+        font-size: 20px;
+    }
+    .ourServiceList ul li p {
+        font-size: 15px;
+    }
+    .cbox1 strong {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .cbox2 span {
+        font-size: 18px;
+    }
+    .lookingForService h3 {
+        font-size: 24px;
+    }
+    .lookingForService h4 {
+        font-size: 28px;
+    }
+    .whoWeAreCont h3,
+    .WhyChooseUs h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .whoWeAreCont li,
+    .WhyChooseUs li {
+        font-size: 15px;
+        line-height: 23px;
+        padding: 0 0 5px 28px;
+    }
+    .hero img {
+        width: 100% !important;
+        max-width: 500px;
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .services h2,
+    .about h2 {
+        font-size: 1.6rem;
+    }
+    .service-card h3 {
+        font-size: 1.2rem;
+    }
+    .contact-section h2 {
+        font-size: 1.6rem;
+    }
+    .footerCol h4 {
+        font-size: 16px;
+    }
+    .topBar strong {
+        font-size: 16px;
+    }
+    .breadcrumbs {
+        padding: 30px 0;
+    }
+    .breadcrumbs h1 {
+        font-size: 1.6rem;
+    }
+    .blogPageCont {
+        padding: 40px 0 15px;
+    }
+    .blogPageCont li h3 {
+        font-size: 18px;
+    }
+    .blogPageCont li small {
+        font-size: 15px;
+    }
+    .blogDetails {
+        padding: 20px 0 30px;
+    }
+    .blogDetails figure img {
+        height: 250px;
+    }
+    .serviceList li a {
+        padding: 10px;
+    }
+    .serviceList li a img {
+        width: 60px;
+        height: 60px;
+    }
+    .aboutPageCont {
+        padding: 40px 0;
+    }
+    .aboutTxt h2 {
+        font-size: 26px;
+    }
+    .floatingBadge {
+        padding: 15px;
+    }
+    .statBlock {
+        padding: 30px 15px;
+    }
+    .home_faq_panel {
+        padding: 50px 0;
+    }
+    .acc_trigger {
+        font-size: 15px;
+        padding: 18px 30px 18px 0;
+    }
+    .inquiryForm {
+        padding: 20px;
+    }
+    .inquiryForm h4 {
+        font-size: 18px;
+    }
+    .bannerText {
+        padding: 15px;
+    }
+    .bannerText h1 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .bannerText strong {
+        font-size: 18px;
+    }
+    .contactBox {
+        padding: 20px;
+    }
+    .contactBox h2 {
+        font-size: 22px;
+    }
+    .ourServiceList ul {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .ourServiceList ul li {
+        padding: 15px;
+    }
+    .cbox1,
+    .cbox2 {
+        padding: 15px;
+    }
+    .cbox1 strong {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .WhyChooseUs {
+        padding: 60px 0 80px;
+    }
+    .ourWorkProcess {
+        padding: 80px 0;
+    }
+    .bannerTextOuter {
+        padding: 15px 0;
+    }
+    .button1 {
+        font-size: 15px;
+        padding: 10px 18px;
+    }
+    .cbox1 small {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .hTxt p {
+        font-size: 16px;
+    }
+    .whoWeAreCont p,
+    .WhyChooseUs p {
+        margin-bottom: 20px;
+    }
+    .whoWeAreCont img {
+        margin: 20px auto 0;
+    }
+    .whoWeAreCont ul,
+    .WhyChooseUs ul {
+        grid-template-columns: 1fr;
+    }
+    .lookingForService {
+        padding: 0;
+    }
+    .lookingForService .container {
+        gap: 30px;
+    }
+    .lookingForService h3,
+    .lookingForService h4 {
+        font-size: 19px !important;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .lookingForService span {
+        line-height: 20px;
+    }
+    .lookingForService .container>div img {
+        width: 53px;
+    }
+    .home_faq_panel h2::after {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .hero {
+        padding: 30px 15px;
+    }
+    .hero h1 {
+        font-size: 1.6rem;
+    }
+    .services,
+    .about {
+        padding: 30px 0;
+    }
+    .footer {
+        padding-top: 20px;
+    }
+    .footerBottom .container>div {
+        padding-bottom: 20px;
+    }
+    .breadcrumbs h1 {
+        font-size: 1.4rem;
+    }
+    .breadcrumbs .container {
+        padding: 0 15px;
+    }
+    .blogPageCont li {
+        padding: 15px;
+    }
+    .blogPageCont li img {
+        height: 120px;
+    }
+    .blogDetails h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .blogDetails p {
+        font-size: 15px;
+    }
+    .social a {
+        font-size: 25px;
+    }
+    .serviceList li a strong {
+        font-size: 16px;
+    }
+    .aboutTxt h2 {
+        font-size: 24px;
+    }
+    .aboutTxt p {
+        font-size: 15px;
+    }
+    .trustList li {
+        font-size: 14px;
+    }
+    .floatingBadge {
+        left: 10px;
+        bottom: 10px;
+    }
+    .acc_trigger {
+        font-size: 14px;
+        padding: 16px 25px 16px 0;
+        font-weight: 600;
+    }
+    .acc_cont p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .inquiryForm {
+        padding: 15px;
+    }
+    .bannerText h1 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .bannerText p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .button1 {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+    .contactBox {
+        padding: 15px;
+    }
+    .contactBox h2 {
+        font-size: 20px;
+    }
+    .btn-submit {
+        padding: 12px;
+    }
+    .ourServiceList ul li strong {
+        font-size: 18px;
+    }
+    .cbox1 strong {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .cbox2 span {
+        font-size: 16px;
+    }
+    .lookingForService h3 {
+        font-size: 20px;
+    }
+    .lookingForService h4 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width:390px) {}
+
+@media only screen and (max-width:375px) {
+    .service-card {
+        padding: 15px;
+    }
+    .container {
+        padding: 0 10px;
+    }
+    .infoItem img {
+        width: 30px;
+        margin-right: 8px;
+    }
+    .footerLogo img {
+        max-width: 150px;
+    }
+    .breadcrumbs ul {
+        font-size: 0.8rem;
+        gap: 5px;
+    }
+    .blogPageCont li p {
+        font-size: 14px;
+    }
+    .blogPageCont li a.read {
+        font-size: 14px;
+    }
+    .blogDetails figure img {
+        height: 200px;
+    }
+    .serviceList li a strong small {
+        font-size: 14px;
+    }
+    .aboutTxt span {
+        font-size: 12px;
+    }
+    .floatingBadge .number {
+        font-size: 24px;
+    }
+    .statBlock h3 {
+        font-size: 24px;
+    }
+    .inquiryForm input,
+    .inquiryForm textarea {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+    .bannerText {
+        padding: 12px;
+    }
+    .bannerText h1 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .input,
+    textarea {
+        padding: 12px;
+        font-size: 14px;
+    }
+    .ourServiceList ul li p {
+        font-size: 14px;
+    }
+    .cbox1 small {
+        font-size: 14px;
+    }
+    .cbox2 img {
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width:360px) {}
+
+@media only screen and (max-width:320px) {
+    .hero h1 {
+        font-size: 1.4rem;
+    }
+    .cta-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    .service-card h3 {
+        font-size: 1.1rem;
+    }
+    .topBar strong {
+        font-size: 14px;
+    }
+    .footerCol h4 {
+        font-size: 14px;
+    }
+    .gstTxt {
+        font-size: 10px;
+    }
+    .breadcrumbs h1 {
+        font-size: 1.2rem;
+    }
+    .breadcrumbs {
+        padding: 25px 0;
+    }
+    .breadcrumbs ul {
+        font-size: 0.7rem;
+    }
+    .blogPageCont li h3 {
+        font-size: 16px;
+    }
+    .blogPageCont li img {
+        height: 100px;
+    }
+    .blogDetails h2 {
+        font-size: 18px;
+    }
+    .blogDetails figure img {
+        height: 180px;
+    }
+    .serviceList h3 {
+        font-size: 18px;
+    }
+    .serviceList li a img {
+        width: 50px;
+        height: 50px;
+    }
+    .aboutTxt h2 {
+        font-size: 20px;
+    }
+    .aboutPageCont {
+        padding: 30px 0;
+    }
+    .floatingBadge {
+        padding: 10px;
+    }
+    .floatingBadge .number {
+        font-size: 20px;
+    }
+    .statBlock {
+        padding: 20px 10px;
+    }
+    .statBlock h3 {
+        font-size: 20px;
+    }
+    .home_faq_panel {
+        padding: 40px 0;
+    }
+    .acc_trigger {
+        font-size: 13px;
+        padding: 14px 20px 14px 0;
+    }
+    .acc_cont p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .inquiryForm h4 {
+        font-size: 16px;
+    }
+    .inquiryForm p {
+        font-size: 14px;
+    }
+    .bannerText h1 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .bannerText strong {
+        font-size: 14px;
+    }
+    .bannerText p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .button1 {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .contactBox h2 {
+        font-size: 18px;
+    }
+    .btn-submit {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .ourServiceList ul li strong {
+        font-size: 16px;
+    }
+    .cbox1 strong {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .cbox1 span {
+        font-size: 16px;
+    }
+    .cbox2 span {
+        font-size: 14px;
+    }
+    .lookingForService h3 {
+        font-size: 18px;
+    }
+    .lookingForService h4 {
+        font-size: 20px;
+    }
+    .WhyChooseUs {
+        padding: 50px 0 60px;
+    }
+    .ourWorkProcess {
+        padding: 60px 0;
+    }
+}

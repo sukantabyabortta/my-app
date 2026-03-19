@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "name": "Sukanta Byabortta",
+      "email": "sukanta.byabortta@gmail.com",
+      "id": "5336"
+    },
+    {
+      "name": "Puja Byabortta",
+      "email": "sukanta.byabortta@gmail.com",
+      "id": "ed09"
+    },
+    {
+      "name": "Shanti Byabortta",
+      "email": "maa@gmail.com",
+      "id": "d124"
+    },
+    {
+      "name": "Surojit Nath",
+      "email": "surojit20@gmail.com",
+      "id": "9b05"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
