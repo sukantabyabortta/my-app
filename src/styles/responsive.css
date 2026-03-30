@@ -337,7 +337,7 @@
         height: 100%;
         display: block;
         z-index: 50;
-        padding-top: 30px;
+        padding-top: 50px;
         transition: all ease-in-out 0.2s;
         -webkit-transition: all ease-in-out 0.2s;
         -moz-transition: all ease-in-out 0.2s;
@@ -348,6 +348,7 @@
         display: block !important;
     }
     .headerNav.change {
+        box-shadow: 0px 0px 0px 2000px #353a45;
         left: 0;
     }
     .headerNav li a {
@@ -424,6 +425,8 @@
         top: 10px;
         font-size: 25px;
         color: #fff;
+        text-align: center;
+        line-height: 30px;
     }
     .WhyChooseUs {
         padding: 50px 0;

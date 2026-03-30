@@ -3,8 +3,16 @@ import callIcon from "../../assets/images/call-icon-red.png";
 import wpIcon from "../../assets/images/whatsapp-icon.png";
 import Navigation from "./Navigation";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Header = () => {
+      const [isOpen, setIsOpen] = useState(false);
+      const showNav = () => {
+            setIsOpen(true); // always add, never remove
+      };
+      const hidenav = () => {
+            setIsOpen(false); // always add, never remove
+      };
       return (
             <>
                   <div className="floatIcon">
@@ -19,9 +27,12 @@ const Header = () => {
                               </Link>
                               </div>
 
-                              <nav className="headerNav">
+                              <nav className={`headerNav ${isOpen ? "change" : ""}`}>
+                                    <span href="#" class="closeButton" onClick={hidenav}><i class="fa fa-times"></i></span>
                                     <Navigation  />
                               </nav>
+
+                              <span href="#" class="mobileButton" onClick={showNav}><i class="fa fa-bars"></i></span>
                         </div>
                   </header>
             </>
