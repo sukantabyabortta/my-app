@@ -28,11 +28,11 @@ const Header = () => {
                               </div>
 
                               <nav className={`headerNav ${isOpen ? "change" : ""}`}>
-                                    <span href="#" className="closeButton" onClick={hidenav}><i class="fa fa-times"></i></span>
+                                    <span className="closeButton" onClick={hidenav}><i class="fa fa-times"></i></span>
                                     <Navigation  />
                               </nav>
 
-                              <span href="#" className="mobileButton" onClick={showNav}><i class="fa fa-bars"></i></span>
+                              <span className="mobileButton" onClick={showNav}><i class="fa fa-bars"></i></span>
                         </div>
                   </header>
             </>
