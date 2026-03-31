@@ -236,6 +236,7 @@
         margin-bottom: 0;
         overflow: visible;
         width: 100%;
+        height: auto;
         display: block;
         float: left;
     }
@@ -264,6 +265,7 @@
         color: #082237;
     }
     .container {
+        max-width: unset;
         padding: 0 15px;
     }
     .services {
@@ -271,6 +273,9 @@
     }
     .about {
         padding: 40px 0;
+    }
+    .aboutTxt {
+        max-width: unset;
     }
     .topBar {
         flex-wrap: wrap;
@@ -484,6 +489,7 @@
     }
     .aboutContent {
         grid-template-columns: 1fr;
+        display: block;
     }
     .hero .container {
         gap: 0px;
@@ -870,6 +876,9 @@
         position: absolute;
         left: 3px;
         bottom: 4px;
+    }
+    #contactForm {
+        display: flex;
     }
 }
 
