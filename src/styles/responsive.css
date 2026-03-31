@@ -212,6 +212,26 @@
 }
 
 @media only screen and (max-width:992px) {
+    .guarantee {
+        padding: 30px 15px;
+    }
+    .guarantee h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .contact-section {
+        padding: 40px 15px;
+    }
+    .contact-section h2 {
+        font-size: 1.7rem;
+    }
+    .about {
+        padding: 40px 0;
+    }
+    .about h2 {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
     .heroBanner {
         margin-bottom: 0;
         overflow: visible;
@@ -356,6 +376,16 @@
         color: #fff !important;
         padding: 10px 15px !important;
     }
+    .headerNav li .nav-toggle {
+        color: #fff;
+        padding: 10px 15px;
+        border-bottom: 3px solid transparent;
+    }
+    .headerNav li .nav-toggle:hover {
+        color: #fff;
+        background: rgba(255, 255, 255, 0.1);
+        border-bottom-color: #ff6b35;
+    }
     .headerNav li:hover a {
         background: rgba(255, 255, 255, 0.1);
         border-bottom-color: #ff6b35;
@@ -364,30 +394,31 @@
         opacity: 0;
         visibility: hidden;
     }
-    .headerNav ul,
-    .headerNav ul ul,
-    .headerNav ul ul ul {
+    .headerNav ul {
         position: static;
         width: 100%;
         opacity: 1 !important;
         box-shadow: unset;
-        border-bottom: 2px solid #ff6b35;
         visibility: unset !important;
         border-radius: unset;
-        -webkit-border-radius: unset;
-        -moz-border-radius: unset;
-        -ms-border-radius: unset;
-        -o-border-radius: unset;
         transform: unset;
-        -webkit-transform: unset;
-        -moz-transform: unset;
-        -ms-transform: unset;
-        -o-transform: unset;
         transition: unset !important;
-        -webkit-transition: unset !important;
-        -moz-transition: unset !important;
-        -ms-transition: unset !important;
-        -o-transition: unset !important;
+    }
+    .headerNav ul ul,
+    .headerNav ul ul ul {
+        position: static;
+        width: 100%;
+        box-shadow: unset;
+        border-bottom: 2px solid #ff6b35;
+        border-radius: unset;
+        transform: unset;
+        transition: unset !important;
+        display: none;
+    }
+    .headerNav ul ul.dropdown-open {
+        display: block;
+        opacity: 1;
+        visibility: visible;
     }
     .headerNav ul ul {
         background: #859ecb;
@@ -493,6 +524,68 @@
 }
 
 @media only screen and (max-width:767px) {
+    .hero {
+        padding: 30px 0;
+    }
+    .hero .container > div {
+        flex-direction: column-reverse;
+        gap: 20px;
+        text-align: center;
+    }
+    .hero img {
+        width: 100% !important;
+        max-width: 400px;
+        height: 220px;
+        margin: 0 auto;
+    }
+    .hero h1 {
+        font-size: 1.6rem;
+        line-height: 38px;
+    }
+    .hero p {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+    .about {
+        padding: 30px 0;
+    }
+    .about h2 {
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+    }
+    .about p {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+    .services {
+        padding: 30px 0;
+    }
+    .services h2 {
+        font-size: 1.6rem;
+        margin-bottom: 30px;
+    }
+    .guarantee {
+        padding: 25px 15px;
+    }
+    .guarantee h3 {
+        font-size: 1.3rem;
+    }
+    .guarantee p {
+        font-size: 1rem;
+    }
+    .contact-section {
+        padding: 35px 15px;
+    }
+    .contact-section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+    .contact-section p {
+        font-size: 1rem;
+    }
+    .cta {
+        padding: 20px 0 0;
+    }
     .service-grid {
         grid-template-columns: 1fr;
     }
@@ -889,6 +982,34 @@
 }
 
 @media only screen and (max-width:479px) {
+    .hero h1 {
+        font-size: 1.4rem;
+        line-height: 32px;
+    }
+    .hero img {
+        height: 180px;
+    }
+    .about h2 {
+        font-size: 1.4rem;
+    }
+    .services h2 {
+        font-size: 1.4rem;
+    }
+    .service-card {
+        padding: 15px;
+    }
+    .service-card h3 {
+        font-size: 1.1rem;
+    }
+    .service-card p {
+        font-size: 0.95rem;
+    }
+    .guarantee h3 {
+        font-size: 1.2rem;
+    }
+    .contact-section h2 {
+        font-size: 1.3rem;
+    }
     .services h2,
     .about h2 {
         font-size: 1.6rem;

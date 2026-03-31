@@ -29,7 +29,7 @@ const Header = () => {
 
                               <nav className={`headerNav ${isOpen ? "change" : ""}`}>
                                     <span href="#" class="closeButton" onClick={hidenav}><i class="fa fa-times"></i></span>
-                                    <Navigation  />
+                                    <Navigation closeNav={hidenav} />
                               </nav>
 
                               <span href="#" class="mobileButton" onClick={showNav}><i class="fa fa-bars"></i></span>

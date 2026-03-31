@@ -9,7 +9,7 @@ const navData = [
   },
   {
     label: "Service",
-    path: "/ac-repair",
+    path: null,
     dropdown: [
       { label: "AC Repair", path: "/ac-repair" },
       { label: "Washing Machine", path: "/washing-machine" },

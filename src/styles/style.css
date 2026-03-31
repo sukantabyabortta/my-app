@@ -285,7 +285,8 @@ a {
 }
 
 .headerNav ul li a {
-    display: block;
+    display: flex;
+    align-items: center;
     font-size: 16px;
     line-height: 23px;
     font-weight: 500;
@@ -320,7 +321,25 @@ a {
 }
 
 .arrow {
-    font-size: 13px;
+    font-size: 11px;
+    margin-left: auto;
+    padding-left: 6px;
+}
+
+.nav-toggle {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #2e2e2e;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+}
+
+.nav-toggle:hover {
+    color: #e74c3c;
 }
 
 .headerNav ul ul {
@@ -1973,6 +1992,7 @@ textarea {
     justify-content: center;
     align-items: center;
     text-align: left;
+    flex-wrap: wrap;
 }
 
 .hero h1 {
