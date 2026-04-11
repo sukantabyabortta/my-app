@@ -2235,7 +2235,7 @@ textarea {
 .heroBanner {
   position: relative;
   width: 100%;
-  height: 700px; /* Full screen height */
+  /* height: 700px; */
   overflow: hidden;
 }
 
