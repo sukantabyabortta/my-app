@@ -42,7 +42,7 @@ const aboutData = {
 
             call: {
                   text: "Call Now",
-                  number: "+91 7980011385"
+                  number: "9696969696"
             },
 
             aboutImage: aboutImg,
