@@ -42,7 +42,7 @@ const blogData = {
                   icon: "fa fa-facebook-f",
             },
             {     id: "2",
-                  link: "https://www.linkedin.com/in/sukanta-byabortta/",
+                  link: "https://www.linkedin.com/",
                   icon: "fa fa-linkedin",
             },
             {     id: "3",
