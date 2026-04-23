@@ -21,7 +21,7 @@ const Footer = () => {
                               </div>
                               <div className="infoItem">
                               <img src={CallIcon} alt="Call Icon" />
-                              <div><strong>Call us on:</strong><a href="tel:+91 7980011385">+91 7980011385</a></div>
+                              <div><strong>Call us on:</strong><a href="tel:9696969696">9696969696</a></div>
                               </div>
                         </div>
 
@@ -68,7 +68,7 @@ const Footer = () => {
                                           <h4>Contact Info</h4>
                                           <address>
                                           Kolkata, Westbengal, India<br />
-                                          <strong>Phone:</strong> +91 7980011385
+                                          <strong>Phone:</strong>9696969696
                                     </address>
                                     </div>
                               </div>
