@@ -120,7 +120,7 @@ const HomeServiceData = {
       des: "Call SR Appliance Care & Get You Booking Done At.",
 
       image2: phoneIcon,
-      phNo: "+91 7980011385", 
+      phNo: 9696969696", 
       time: "Monday - Saturday : 9.30 am - 6.00 pm"
    },
    
