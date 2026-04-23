@@ -90,7 +90,7 @@ const Footer = () => {
                 <address>
                   Kolkata, Westbengal, India
                   <br />
-                  <strong>Phone:</strong>9696969696
+                  <strong>Phone:</strong> 9696969696
                 </address>
               </div>
             </div>
