@@ -7,10 +7,10 @@ const contactData = {
                   nameTag: "CONNECT",
                   title: "Contact SR Appliance Care",
                   des: "Need reliable appliance repair services in SR? Our expert technicians are ready to help you with all your home appliance problems. Contact us for fast, professional, and affordable repair solutions.",
-                  phone: "+91 7980011385",
+                  phone: "9696969696",
                   email: "appliancecareindia@gmail.com",
                   address: "Plot.24 Chaudhari rodu Ramnagar patrakaar colony Mansarovar pin 302020",
-                  ServiceNo: "+91 7980011385"
+                  ServiceNo: "9696969696"
             },
             
       ],
